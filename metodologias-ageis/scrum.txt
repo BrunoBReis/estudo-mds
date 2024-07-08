@@ -19,4 +19,8 @@ Scrum Definition
     o Scrum anda bem com outras metodologias de desenvolvimento (XP) e gerenciamento (Kanban)
 Scrum Theory
     o Scrum é fundado em empirismo e pensamento lean 
-    pensamentos que são 
+    pensamentos que são sintetizados no conceito de Sprint
+    Sprint
+        Transparência
+        Inspeção
+        Adaptação
