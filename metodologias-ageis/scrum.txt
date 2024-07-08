@@ -1,0 +1,22 @@
+Resumo
+    Scrum Definition
+    Scrum Theory
+    Scrum Values
+    Scrum Team
+    Scrum Events
+    Scrum Artifacts
+    End Note
+-----------------------
+Scrum Definition
+    O SM tem o papel de orquestrar:
+        PO seleciona o que deve ser feito a partir do backlog
+        o time realizam o pedido na medida do possível
+        o time ajusta a partir da demana (se foi muita coisa ou não)
+        repete
+    o Scrum foi pensando em na inteligência do uso coletivo
+        ele em si não é uma ferramenta que resolve todos os problemas
+        apenas trás o caminho para resolver
+    o Scrum anda bem com outras metodologias de desenvolvimento (XP) e gerenciamento (Kanban)
+Scrum Theory
+    o Scrum é fundado em empirismo e pensamento lean 
+    pensamentos que são 
