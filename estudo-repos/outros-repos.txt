@@ -1,0 +1,11 @@
+Gitflow
+    eu percebi que todas as features estão alocadas em pull requests
+        uma issue é criada
+        um pull request vem para resolver essa issue
+        criacação de uma branch (essa branch tem que ser descritiva)
+            feat/criacao-do-login
+        o problema é resolvido
+        ele é testado em vários cenários (Python CI, CodeQL, Javascript CI, ...)
+        merge na main
+    main sempre possui o código atualizado
+    quando há muitas atualizações é feito uma nova release (marcadando todos os pull requests)

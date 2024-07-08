@@ -1,0 +1,68 @@
+Resumo
+    README
+    Issues
+    Deployments
+    Release Notes
+    Milestones
+    OBS
+---------------------
+README
+    nome do projeto liga para a página do github
+        não entendi a funcionalidade disso?
+        vou ver se é um padrão
+    resumo das estatísticas do projeto
+        license, issues, contributors, stars, views
+    resumo das tecnologias usadas e suas versões
+        achei interssante, chama a comunidade para ajudar...
+    resumo sobre o projeto
+        achei bacana ter
+    um destaque muito grande para a licença MIT
+        não sei se precisa disso
+    resumo das funcionalidades do projeto
+        muito texto
+        mas interessante ter
+    documentação do github pages
+    detalhamento das tecnologias usadas
+        mais uma vez falando das tecnologias
+    como rodar o projeto
+        descrição detalhada de como rodar o projeto
+    extra
+        miro
+            mapa de conhecimentos
+                podia ser um pouco melhor trabalhado
+            diagrama da arquitetura do projeto
+                facil de entender
+            acivity flow
+                muito inteligente para visualização
+        protótipo
+            ficou fenomenal (usar como base)
+            abordagem para diferentes telas
+    Overall
+        achei que tem muito texto
+        dificuldade de ver os pontos principais
+        muito legal ter um detalhamento de como rodar o projeto 
+        podia ter um ambiente virtual para isso
+        extra com informações muito legais
+Issues
+    qualquer atividade é feita uma issue
+    FOI O MODELO QUE EU MAIS GOSTEI
+    Estrutura de issue
+        nome da issue
+        épico
+            "login com autenticação, perfil e permissões"
+        freature
+            "login com e-mail e senha"
+        critérios de aceitação 
+    Nome da issue
+        readme: para atualizar o readme
+        fix: para correcao de bugs
+        pagina x: para mudança de página x
+        feat: implementação
+        sytle: mudança de estilo
+        docs: atualização do docs
+Deployments
+    muito deploys, não entendi o pq
+OBS
+    para cada issue é feita uma branch
+        branch com o nome da issue e o que será feito
+    ao final é feito um merge para main
