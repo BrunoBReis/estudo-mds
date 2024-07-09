@@ -60,6 +60,7 @@ Issues
         feat: implementação
         sytle: mudança de estilo
         docs: atualização do docs
+        test: criando um teste
 Deployments
     muito deploys, não entendi o pq
 OBS
