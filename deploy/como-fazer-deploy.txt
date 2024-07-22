@@ -1,0 +1,54 @@
+=================================================
+Django Documentation (https://docs.djangoproject.com/en/5.0/howto/deployment/)
+Django é um Web FrameWork em Python
+	para fazer o deploy é necessário um servidor
+        Basic for deployment
+            static files
+            error reporting
+        Django checklist
+            deployment checklist
+		Interface
+            a maioria dos servidores não conversa com python, como resolver?
+                interface para conversar com o Django (python3)
+                    WSGI
+                        comunicação entre web server e aplicação (Django)
+                        synchronous code
+                    ASGI
+                        comunicação entre web server e aplicação (Django)
+                        asynchronous-friendly
+                            features de python e django (deu a intender que é independente)
+--------------------------------------
+WSGI (https://wsgi.tutorial.codepoint.net/intro#)
+    Web Server Gateway Interface
+    não é um servidor, um módulo python, FrameWork ou aplicação
+    comunicação entre servidor e aplicação (Django)
+    WSGI applications
+        can be stacked
+            between server and application could be middleware
+            middleware must be implemented in both sides (server and application)
+                if application is on top, middleware must behave as an server
+                if server on top, middleware must behave as application
+    WSGI server
+        recives request from client ans pass it to the application
+        then return response to cliente by application
+    Django mostra como fazer o deployment com WSGI (mas é uma implementação demorada de ser feita)
+BREAK
+===========================================
+You tube
+Video 1 (https://youtu.be/IoxHUrbiqUo?si=HVTUmfI2GkW2rhUI)
+    Instalção direta no servidor - não é muito usada
+        criar um servidor linux 
+        instalar as depencias necessárias
+            NGINX, Apche web server, python, python virtual enviroment
+    Docker-compose - bom para o MVP
+        configurar um servidor linux
+        run service para rodar o docker-compose
+            para isso é necessário baixar todas as dependicas
+    Docker-orchestration - boa flexibilidade
+        AWS ECS
+        Kubernets
+        google cloud, aws and others...
+    Serveless techonology - não acho que faz sentido...
+        google app engine
+============================================
+Site (https://betterstack.com/community/guides/scaling-python/dockerize-django/)
